@@ -18,7 +18,7 @@
   <link href="//fonts.gstatic.com" rel="dns-prefetch">
   
   
-  
+  <link href="//imsun.github.io" rel="dns-prefetch">
   
   
 
@@ -185,7 +185,7 @@
             <span class="icon icon-email" aria-hidden="true"></span>
           </a>
         </li><li class="social-item">
-          <a href="//github.com/true" title="GitHub" aria-label="GitHub">
+          <a href="//github.com/csusters" title="GitHub" aria-label="GitHub">
             <span class="icon icon-github" aria-hidden="true"></span>
           </a>
         </li><li class="social-item">
@@ -203,6 +203,40 @@
     <article class="post-content"><p>这个作者摸了，什么都没写。</p>
 </article>
     
+      <div id="gitment-container"></div>
+
+<link rel="stylesheet" href="//resource.rurilove.moe/statics/css/gitment.css">
+<script src="//resource.rurilove.moe/statics/js/gitment.js"></script>
+<script>
+  (function() {
+    var page_url = decodeURI("/about/");
+    var page_uniqueid = "6083a88ee3411b0d17ce02d738f69d47";
+
+    if (page_url.length >= 50) {
+      console.log("文章的路径", "[" + page_url + "]:" + page_url.length, "超过了50个字符，使用 UniqueID 设置评论ID");
+      comment_id = page_uniqueid
+    } else {
+      comment_id = page_url
+    }
+
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      console.log(comment_id, comment_id.length);
+      document.getElementById('gitment-container').innerHTML = 'Gitment comments not available by default when the website is previewed locally.';
+    } else {
+      var gitment = new Gitment({
+        id: comment_id,
+        owner: "CSUSTers",
+        repo: "csusters.github.io",
+        oauth: {
+          client_id: "14feb90e0eb37c9d25e0",
+          client_secret: "4c3fe18051198bd6af74c57582e603c214e15dbf",
+        },
+      })
+      gitment.render('gitment-container');
+    }
+  })();
+</script>
+
       
     
   </section>
