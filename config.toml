@@ -1,0 +1,61 @@
+#baseURL = "http://localhost:1313/"
+baseURL = "https://csusters.github.io/"
+languageCode = "zh-Hans"
+title = "CSUSTers' Blog"
+enableRobotsTXT = true
+PygmentsCodeFences = true
+canonifyurls = true
+
+theme = "nuo"
+# theme="imperfect"
+rssURI = "rss/feed.xml"
+copyright = "©本站原创文章版权由作者所有，如无特殊说明可转载并标示原文链接。"
+
+# Metadata format
+metaDataFormat = "yaml"
+
+# Pagination
+paginate = 10
+paginatePath = "page"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "主页"
+    weight = 10
+    identifier = "home"
+    url = "/"
+
+[[menu.main]]
+    name = "标签"
+    weight = 20
+    identifier = "tags"
+    url = "/tags/"
+
+[[menu.main]]
+    name = "归档"
+    weight = 30
+    identifier = "archives"
+    url = "/post/"
+
+
+[params]
+    github = "csusters" # Your Github profile ID
+    rss = 'index.xml'
+
+    seotitle = "CSUSTers' Blog"
+    subtitle = "~ 一群可爱的人们 " 
+    description = "他们来自CSUST"
+
+    avatar = "images/avatar.jpg"
+    favicon = "images/favicon.ico"
+
+    email = "csusters@csu.st"
+
+
+    Github = true      
+    GitmentOwner = "CSUSTers"              # Your GitHub ID
+    GitmentRepo = "https://github.com/CSUSTers/csusters.github.io"               # The repo to store comments
+    GitmentClientId = "14feb90e0eb37c9d25e0"           # Your client ID
+    GitmentClientSecret = "4c3fe18051198bd6af74c57582e603c214e15dbf"  
