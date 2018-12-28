@@ -54,7 +54,7 @@ paginatePath = "page"
     email = "csusters@csu.st"
 
 
-    Github = true      
+    Gitment = true      
     GitmentOwner = "CSUSTers"              # Your GitHub ID
     GitmentRepo = "csusters.github.io"               # The repo to store comments
     GitmentClientId = "14feb90e0eb37c9d25e0"           # Your client ID
