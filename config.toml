@@ -55,7 +55,7 @@ paginatePath = "page"
 
 
     Gitment = true      
-    GitmentOwner = "csusters"              # Your GitHub ID
-    GitmentRepo = "gitmentrepo"               # The repo to store comments
+    GitmentOwner = "CSUSTers"              # Your GitHub ID
+    GitmentRepo = "csusters.github.io"               # The repo to store comments
     GitmentClientId = "14feb90e0eb37c9d25e0"           # Your client ID
     GitmentClientSecret = "4c3fe18051198bd6af74c57582e603c214e15dbf"  
