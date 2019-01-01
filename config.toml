@@ -1,6 +1,7 @@
 #baseURL = "http://localhost:1313/"
 baseURL = "https://csusters.github.io/"
 languageCode = "zh-Hans"
+defaultContentLanguage = "zh-cn"
 title = "CSUSTers' Blog"
 enableRobotsTXT = true
 PygmentsCodeFences = true

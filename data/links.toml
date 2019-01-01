@@ -1,5 +1,11 @@
 [Hugefiver]
     title = "Hugefiver"
     link = "https://rurilove.moe"
-    avatar = "//i.yusa.me/L8SrGJLdNb6Q.png"
+    avatar = "https://i.yusa.me/L8SrGJLdNb6Q.png"
     description = "Hugefiver 的博客"
+
+[Huo]
+    title = "安东尼洪"
+    link = "https://www.initimirai.xyz"
+    avatar = "https://gravatar.com/avatar/64541af0afde194a6e7bfe00d3c0442b?s=512"
+    description = "Anthony Hoo 的博客"
