@@ -1,5 +1,6 @@
 #baseURL = "http://localhost:1313/"
-baseURL = "https://csusters.github.io/"
+#baseURL = "https://csusters.github.io/"
+baseURL = "https://blog.csust.xyz/"
 languageCode = "zh-Hans"
 defaultContentLanguage = "zh-cn"
 title = "CSUSTers' Blog"
